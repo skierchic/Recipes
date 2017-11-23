@@ -1,10 +1,9 @@
 FactoryBot.define do
   factory :recipe do
-    name "MyString"
-    description "MyText"
-    instructions "MyText"
-    servings "MyString"
-    integer "MyString"
+    name "Green Eggs and Ham"
+    description "Would you eat them in a box?  Would you eat them with a fox?"
+    instructions "Eggs + Ham + Food Coloring"
+    servings 4
     cooking_time 1
   end
 end
